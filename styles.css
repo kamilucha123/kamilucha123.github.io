@@ -14,6 +14,7 @@ body {
 .b {
 	position: absolute;
 	margin: auto;
+	margin-top: 50%;
 	background-color: #486EC5;
 	color: #8AD77A;
 	font-size: 3em;
