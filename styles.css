@@ -13,8 +13,7 @@ body {
 }
 .b {
 	position: absolute;
-	-moz-left: 45%;
-	-moz-top: 50%;
+	-moz-top: 600px;
 	margin: auto;
 	background-color: #486EC5;
 	color: #8AD77A;
