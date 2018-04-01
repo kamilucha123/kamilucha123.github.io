@@ -5,30 +5,31 @@ html {
 body {
 	height: 100%;
 	width: 100%;
+	display:flex;
+	justify-content: center;
+	align-items: center;
 	background-image: url("https://media.ticketmaster.eu/belgium/feature/smurfexperience/img/Smurf-FEATURE%20PAGE-1280x720.png");
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-attachment: fixed;
 	background-size: cover;
 }
-.b {
-	position: absolute;
-	left: 45%;
-	top: 70%;
-	margin: auto;
+
+.btn {
+	min-width: 20%;
+	min-height: 10%;
+	position:absolute;
 	background-color: #486EC5;
 	color: #8AD77A;
 	font-size: 3em;
-	min-width: 20%;
-	min-height: 15%;
 	border-radius: 1000px;
 	transition: transform 1s;
 	
 }
 
-.b:hover {
+.btn:hover {
 	background-color: #2764F0;
 	/*font-size: 4em;*/
 	/*color: #5DB84A;*/
-	transform: translateX(-40%) translateY(-30%) scale(1.4);
+	transform: scale(1.4);
 }
