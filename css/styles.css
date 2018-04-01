@@ -16,9 +16,6 @@ body {
 }
 
 .btn {
-	min-width: 20%;
-	min-height: 10%;
-	position:absolute;
 	background-color: #486EC5;
 	color: #8AD77A;
 	font-size: 3em;
